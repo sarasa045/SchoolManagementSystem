@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace SchoolApp.Model
 {
     // Model/Student.cs
-    public class Student
+    public class Students
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
