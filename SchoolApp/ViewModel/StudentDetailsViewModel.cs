@@ -4,7 +4,7 @@ using System.Windows;
 using System.Windows.Input;
 using SchoolApp.Commands;
 
-namespace StudentApp.ViewModels
+namespace SchoolApp.ViewModel
 {
     public class StudentDetailsViewModel : INotifyPropertyChanged
     {
