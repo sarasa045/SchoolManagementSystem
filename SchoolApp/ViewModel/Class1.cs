@@ -11,5 +11,7 @@ namespace SchoolApp.ViewModel
         public string Name { get; set; }   
         public double Salary { get; set; }
         public string department { get; set; }
+
+        public string departmentName { get; set; }
     }
 }
