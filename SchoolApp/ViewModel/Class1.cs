@@ -9,5 +9,6 @@ namespace SchoolApp.ViewModel
     internal class Class1
     {
         public string Name { get; set; }   
+        public double Salary { get; set; }
     }
 }
