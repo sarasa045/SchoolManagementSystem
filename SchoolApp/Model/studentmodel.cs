@@ -17,5 +17,6 @@ namespace SchoolApp.Model
         public string Section { get; set; }
         public string FatherName { get; set; }
         public string MotherName { get; set; }
+        public string section { get; set; }
     }
 }
