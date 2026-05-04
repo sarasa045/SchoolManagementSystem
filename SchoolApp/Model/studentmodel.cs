@@ -18,5 +18,6 @@ namespace SchoolApp.Model
         public string FatherName { get; set; }
         public string MotherName { get; set; }
         public string section { get; set; }
+        public string schoolname { get; set; }
     }
 }
