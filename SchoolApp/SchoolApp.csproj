@@ -36,6 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -56,8 +57,11 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Commands\RelayCommand.cs" />
+    <Compile Include="Data\StudentRepository.cs" />
+    <Compile Include="Repository\StudentRepository.cs" />
     <Compile Include="ViewModel\Class1.cs" />
     <Compile Include="ViewModel\StudentDetailsViewModel.cs" />
+    <Compile Include="ViewModel\StudentsViewModel.cs" />
     <Compile Include="View\UserControl1.xaml.cs">
       <DependentUpon>UserControl1.xaml</DependentUpon>
     </Compile>
