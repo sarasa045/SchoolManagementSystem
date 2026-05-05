@@ -30,7 +30,7 @@ namespace SchoolApp.View
         public UserControl1()
         {
             InitializeComponent();
-            // DataContext = new StudentDetailsViewModel();
+             DataContext = new StudentDetailsViewModel();
             vm = new StudentsViewModel();
             this.DataContext = vm;
             this.Loaded += UserControl1_Loaded;
