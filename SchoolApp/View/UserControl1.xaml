@@ -7,7 +7,7 @@
              mc:Ignorable="d">
 
     <UserControl.DataContext>
-        <vm:StudentDetailsViewModel />
+        <vm:StudentDetailsViewModel/>
     </UserControl.DataContext>
 
     <StackPanel Margin="20">
